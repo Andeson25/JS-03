@@ -1,13 +1,13 @@
-// setInterval(()=> {
-//     target.innerHTML=(new Date()).toDateString()+' : '+(new Date()).toLocaleTimeString();
-// },10)
-// setInterval(()=>{
-//     if(target.hidden){
-//         target.hidden=false;
-//     }else{
-//         target.hidden=true;
-//     }
-// },1)
+setInterval(()=> {
+    target.innerHTML=(new Date()).toDateString()+' : '+(new Date()).toLocaleTimeString();
+},10)
+setInterval(()=>{
+    if(target.hidden){
+        target.hidden=false;
+    }else{
+        target.hidden=true;
+    }
+},1)
 document.querySelectorAll(".buttons button").forEach(el => {
   el.addEventListener("click", ev => {
     document.querySelectorAll(".buttons button, .tabs div").forEach(el => {
