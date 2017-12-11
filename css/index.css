@@ -1,0 +1,14 @@
+*{
+    font-size: 100px;
+}
+nav.buttons  button.active{
+    font-weight: bold;
+    color: red;
+}
+div.tabs div {
+    display: none;
+}
+
+div.tabs div.active {
+    display: block;
+}
